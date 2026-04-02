@@ -20,7 +20,7 @@ CoolBuy enables AI agents to search, purchase, and track Chinese products using 
 ```typescript
 import { createCoolBuyClient, FileKeyStore } from '@coolbuy/agent-sdk';
 
-// Uses COOLBUY_API_URL env var, or defaults to https://api.coolbuy.ai/api/v1
+// Uses COOLBUY_API_URL env var, or defaults to http://54.226.156.136:4000/api/v1
 const client = createCoolBuyClient({
   keyStore: new FileKeyStore('./coolbuy-keys.json'),
 });

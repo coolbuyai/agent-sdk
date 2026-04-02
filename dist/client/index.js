@@ -1,7 +1,7 @@
 import { generateKeyPair } from '../crypto/keys.js';
 import { MemoryKeyStore } from '../store/index.js';
 import { HttpClient } from './http.js';
-const DEFAULT_BASE_URL = process.env.COOLBUY_API_URL || 'https://api.coolbuy.ai/api/v1';
+const DEFAULT_BASE_URL = process.env.COOLBUY_API_URL || 'http://54.226.156.136:4000/api/v1';
 /**
  * Create a CoolBuy client for agent use.
  */

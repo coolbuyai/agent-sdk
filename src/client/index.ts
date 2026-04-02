@@ -13,7 +13,7 @@ import type {
   PaginatedResponse,
 } from '../types/index.js';
 
-const DEFAULT_BASE_URL = process.env.COOLBUY_API_URL || 'https://api.coolbuy.ai/api/v1';
+const DEFAULT_BASE_URL = process.env.COOLBUY_API_URL || 'http://54.226.156.136:4000/api/v1';
 
 export interface CoolBuyClient {
   // ── Identity ──

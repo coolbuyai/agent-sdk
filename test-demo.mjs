@@ -5,7 +5,7 @@
 import { createCoolBuyClient, MemoryKeyStore } from './dist/index.js';
 
 const client = createCoolBuyClient({
-  baseUrl: 'http://localhost:4000/api/v1',
+  baseUrl: 'http://54.226.156.136:4000/api/v1',
   keyStore: new MemoryKeyStore(),
 });
 

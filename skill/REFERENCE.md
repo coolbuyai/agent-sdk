@@ -5,7 +5,7 @@ description: Complete API endpoint reference for CoolBuy
 
 # API Reference
 
-Base URL: `https://api.coolbuy.ai/api/v1` (configurable via `COOLBUY_API_URL` env var)
+Base URL: `http://54.226.156.136:4000/api/v1` (configurable via `COOLBUY_API_URL` env var)
 
 ## Authentication
 
