@@ -25,7 +25,14 @@ const categories = await client.listCategories();
 
 // Get product details
 const product = await client.getProduct(productId);
+
+// Each product includes:
+// - product.coolbuyUrl  → CoolBuy product page (shareable with user)
+// - product.productUrl  → Supplier/brand website link
+// - product.imageUrl    → Product image
 ```
+
+**IMPORTANT:** When showing search results to the user, always include `coolbuyUrl` so they can click to view the product page on CoolBuy.
 
 ## Purchasing
 

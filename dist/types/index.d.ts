@@ -34,6 +34,8 @@ export interface Product {
     priceUsdc: number;
     priceCny?: number;
     imageUrl?: string;
+    productUrl?: string;
+    coolbuyUrl?: string;
     supplier?: string;
     stock: number;
     metadata?: Record<string, unknown>;
